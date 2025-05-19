@@ -10,6 +10,26 @@ import sklearn
 st.set_page_config(page_title="Modelo para la predicción de compra de videojuengos en tienda", layout="centered")
 
 st.title("Predicción para la compra de videojuegos en la tienda")
+# Cambiar la fuente de toda la aplicación
+st.markdown("""
+    <style>
+    html, body, [class*="css"] {
+        font-family: 'Impact', sans-serif !important;
+    }
+
+    h1, h2, h3, h4, h5, h6, p, label, div, button, input, select, textarea {
+        font-family: 'Impact', sans-serif !important;
+    }
+
+    .stButton>button, .stSelectbox, .stSlider {
+        font-family: 'Impact', sans-serif !important;
+    }
+
+    table, th, td {
+        font-family: 'Impact', sans-serif !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
 # montar imagen
 
