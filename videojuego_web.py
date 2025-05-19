@@ -31,6 +31,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+
 # montar imagen
 
 st.image("tienda.jpg")
