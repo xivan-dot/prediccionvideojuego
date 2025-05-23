@@ -58,7 +58,7 @@ def main():
         option_plataforma = ['Play Station', 'PC', 'Xbox', 'Otros', 'mobile']
         plataforma = st.sidebar.selectbox('Plataforma usada por el videojuego', option_plataforma)
 
-        option_sex = ['macho pecho pelu', 'Mujer']
+        option_sex = ['masculino', 'femenino']
         sexo = st.sidebar.selectbox('Sexo del comprador', option_sex)
 
         Consumidor_habitual = st.sidebar.checkbox('Consume videojuegos habitualmente', value=False)
